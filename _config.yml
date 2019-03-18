@@ -1,6 +1,6 @@
 ---
-title: Cryptocartel Com.Github.Io
-timezone: UTC
+title: CryptoCartel
+timezone: America/Los_Angeles
 collections:
   posts:
     title: Posts
@@ -10,15 +10,15 @@ collections:
     output: true
 title_left: Think
 title_right: space
-description: Minimalist Jekyll theme for technical writing blog.
-keywords: Jekyll, theme, free, download, SEO, blog, web, minimalist, thinkspace
-url: https://heiswayi.github.io/thinkspace
-baseurl: ''
-cover: ''
+description: Crypto Think Tank
+keywords: crypto,blockchain,research
+url: https://cryptocartel-com.github.io/
+baseurl: 
+cover: 
 google_analytics: UA-XXXXX-XX
-twitter_username: ''
+twitter_username: cryptocartel
 comments_enabled: false
-disqus_shortname: ''
+disqus_shortname: 
 postshare_enabled: false
 permalink: "/:year/:title/"
 markdown: kramdown
@@ -29,7 +29,7 @@ sass:
   sass_dir: assets/scss
   style: compressed
 author:
-  name: John Doe
+  name: JDub
 plugins:
 - jekyll-sitemap
 - bourbon
