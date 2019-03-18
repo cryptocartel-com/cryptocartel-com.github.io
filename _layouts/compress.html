@@ -1,9 +1,4 @@
 ---
-# Jekyll layout that compresses HTML
-# v2.1.0
-# http://jch.penibelst.de/
-# © 2014–2015 Anatol Broder
-# MIT License
 ---
 
 {% if site.compress_html.ignore.envs contains jekyll.environment %}{{ content }}{% else %}{% capture _content %}{{ content }}{% endcapture %}{% assign _profile = site.compress_html.profile %}{% if site.compress_html.endings == "all" %}{% assign _endings = "html head body li dt dd p rt rp optgroup option colgroup caption thead tbody tfoot tr td th" | split: " " %}{% else %}{% assign _endings = site.compress_html.endings %}{% endif %}{% for _element in _endings %}{% capture _end %}</{{ _element }}>{% endcapture %}{% assign _content = _content | remove: _end %}{% endfor %}{% if _profile and _endings %}{% assign _profile_endings = _content | size | plus: 1 %}{% endif %}{% for _element in site.compress_html.startings %}{% capture _start %}<{{ _element }}>{% endcapture %}{% assign _content = _content | remove: _start %}{% endfor %}{% if _profile and site.compress_html.startings %}{% assign _profile_startings = _content | size | plus: 1 %}{% endif %}{% if site.compress_html.ignore.whitespaces %}{% assign _random = site.time | date: "%s%N" %}{% if site.compress_html.ignore.whitespaces contains "SPACE" %}{% capture _ignore_space %} {% endcapture %}{% capture _freeze_space %}space{{ _random }}{% endcapture %}{% capture _join %}

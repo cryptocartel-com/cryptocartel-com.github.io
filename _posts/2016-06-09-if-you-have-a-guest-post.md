@@ -1,9 +1,10 @@
 ---
+title: If you have a Guest post..
+date: 2016-06-09 00:00:00 Z
 layout: post
-title: "If you have a Guest post.."
 comments: true
-description: "If you have a Guest post.."
-keywords: "dummy content"
+description: If you have a Guest post..
+keywords: dummy content
 author: GuestName
 ---
 

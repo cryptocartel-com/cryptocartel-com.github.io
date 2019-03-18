@@ -1,9 +1,10 @@
 ---
+title: How to Download or Use This Theme
+date: 2016-06-10 00:00:00 Z
 layout: post
-title: "How to Download or Use This Theme"
 comments: true
-description: "How to Download or Use This Theme"
-keywords: "dummy content"
+description: How to Download or Use This Theme
+keywords: dummy content
 ---
 
 ### Use this theme as you main site

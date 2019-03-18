@@ -1,9 +1,10 @@
 ---
+title: Markdown Cheatsheet Demo
+date: 2015-12-30 00:00:00 Z
 layout: post
-title: "Markdown Cheatsheet Demo"
 comments: true
-description: "Markdown Cheatsheet Demo..."
-keywords: "markdown, typography components, dummy content"
+description: Markdown Cheatsheet Demo...
+keywords: markdown, typography components, dummy content
 ---
 
 ## Typography Elements in One
