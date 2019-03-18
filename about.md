@@ -4,4 +4,4 @@ permalink: "/about/"
 layout: page
 ---
 
-Introduce yourself here... so people will know who you are and what you do.. blah..blah..blah..
+We are a close-knit group of hackers, developers, infosec pros, and all around technologists. Working for various startups and creating next-generation technologies. Our focus is pushing blockchain to the next level.
