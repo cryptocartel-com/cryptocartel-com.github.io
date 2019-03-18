@@ -8,8 +8,8 @@ collections:
   uploads:
     title: Uploads
     output: true
-title_left: Think
-title_right: space
+title_left: Crypto
+title_right: Cartel
 description: Crypto Think Tank
 keywords: crypto,blockchain,research
 url: https://cryptocartel-com.github.io/
@@ -29,7 +29,7 @@ sass:
   sass_dir: assets/scss
   style: compressed
 author:
-  name: JDub
+  name: CryptoCartel
 plugins:
 - jekyll-sitemap
 - bourbon
